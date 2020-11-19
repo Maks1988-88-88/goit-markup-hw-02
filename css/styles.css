@@ -122,3 +122,35 @@
 .footer-address a[target] {
     color: #FFFFFF;
 }
+
+/*Портфолио*/
+
+.portfolio-nav li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212121;
+}
+.portfolio-nav button:hover{
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.portfolio-store img{
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio-store h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+
+.portfolio-store p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
