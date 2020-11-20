@@ -3,19 +3,18 @@
 }
 
 .visually-hidden {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     margin: -1px;
-     border: 0;
-     padding: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
-     white-space: nowrap;
-     clip-path: inset(100%);
-     clip: rect(0 0 0 0);
-     overflow: hidden;
- }
-
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .header-logo {
     text-decoration: none;
@@ -29,19 +28,29 @@
     color: #2196F3;
 }
 
-.header-nav a {
+
+.header-nav-li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-nav-link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
 
-.header-nav a:hover {
+.header-nav-link:hover {
     color: #2196F3;
 }
 
+.current-link {
+    color: #2196F3;
+    text-decoration: none;
+}
 
-.header-address a {
+.header-address-link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -49,13 +58,11 @@
     color: #757575;
 }
 
-.header-address a:hover:first-child {
+.header-address-link:hover:first-child {
     color: #2196F3;
 }
 
-.maine {
-    background: #E5E5E5;
-}
+
 .order {
     background: #2F303A;
 }
@@ -79,20 +86,20 @@
 }
 
 
-.maine h3 {
+.advantage {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     color: #212121;
 }
 
-.maine p {
+.advantage-about {
     font-size: 14px;
     line-height: 24px;
     color: #757575;
 }
 
-.maine h2{
+.our-work {
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -105,17 +112,25 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    color: #212121;
 }
+
+.team {
+    background: #F5F4FA;
+}
+
 .team-owes {
     font-size: 16px;
     line-height: 19px;
     font-weight: 400;
     text-align: center;
+    color: #757575;
 }
 
 .footer {
     background: #2F303A;
 }
+
 .footer-logo {
     text-decoration: none;
     color: #FFFFFF;
@@ -127,7 +142,10 @@
 .footer-logo > span {
     color: #2196F3;
 }
-.footer-address a{
+
+
+.footer-address {
+    list-style: none;
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
@@ -139,32 +157,46 @@
     color: #FFFFFF;
 }
 
+
+.our-work-image {
+    width: 370px;
+    height: 297px;
+}
+
+.our-team-image {
+    width: 270px;
+    height: 260px;
+}
+
 /*Портфолио*/
 
-.portfolio-nav li{
+
+.portfolio-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #212121;
+    list-style: none;
 }
-.portfolio-nav button:hover{
+
+.portfolio-nav-btn:hover {
     color: #FFFFFF;
     background: #2196F3;
 }
 
-.portfolio-store img{
+.portfolio-img {
     width: 370px;
     height: 294px;
 }
 
-.portfolio-store h2{
+.portfolio-soft {
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     color: #212121;
 }
 
-.portfolio-store p {
+.portfolio-about {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
