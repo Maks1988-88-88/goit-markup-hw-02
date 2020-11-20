@@ -17,11 +17,15 @@
 }
 
 .header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
     text-decoration: none;
     color: #212121;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+
 }
 
 .header-logo > span {
@@ -35,10 +39,12 @@
 }
 
 .header-nav-link {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
 }
 
 .header-nav-link:hover {
@@ -52,9 +58,12 @@
 
 .header-address-link {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
     color: #757575;
 }
 
@@ -68,21 +77,28 @@
 }
 
 .order-name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    color: #FFFFFF;
+    line-height: 1.363;
     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .order-btn {
     background: #2196F3;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-    color: #FFFFFF;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 700;
-    line-height: 30px;
-
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 
 
