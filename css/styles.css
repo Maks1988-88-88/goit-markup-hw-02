@@ -178,6 +178,7 @@
 .footer-address {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -215,7 +216,7 @@
     color: #212121;
 }
 
-.portfolio-nav-btn:hover, .portfolio-nav-btn:focus {
+.portfolio-nav:hover, .portfolio-nav:focus {
     color: #FFFFFF;
     background: #2196F3;
 }
